@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(npx vitest:*)",
+      "mcp__playwright",
+      "Bash(start:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Create a pricing page with three tiers\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}' --max-time 30)",
+      "Bash(curl:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
